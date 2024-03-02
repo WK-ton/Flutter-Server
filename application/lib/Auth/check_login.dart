@@ -33,3 +33,5 @@ class _CheckLoginState extends State<CheckLogin> {
     return const Scaffold();
   }
 }
+
+//Applications
