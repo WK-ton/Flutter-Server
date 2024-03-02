@@ -22,7 +22,6 @@ class _CheckLoginState extends State<CheckLogin> {
     }
   }
 
-  //การเรียกใช้ checklogin
   @override
   void initState() {
     checkLogin();
