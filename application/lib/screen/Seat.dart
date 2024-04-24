@@ -460,12 +460,15 @@ class _SeatReservationScreenState extends State<SeatReservationScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 55),
+              const SizedBox(height: 50),
               Stack(
                 children: [
                   Container(
-                    width: 390,
-                    height: 116,
+                    width: MediaQuery.of(context).size.width * 1.0,
+                    height: MediaQuery.of(context).size.height * 0.15,
+
+                    //width: 390,
+                    //height: 116,
                     decoration: const ShapeDecoration(
                       color: Color(0xFF5C24D4),
                       shape: RoundedRectangleBorder(

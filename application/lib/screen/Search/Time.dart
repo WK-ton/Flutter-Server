@@ -84,7 +84,11 @@ class _TimeSelectState extends State<TimeSelect> {
                   )
                 ],
               ),
-              const Divider(height: 10),
+              const Divider(
+                height: 10,
+                color: Colors.grey,
+                thickness: 0.25,
+                ),
               const SizedBox(height: 10),
               Expanded(
                 child: ListView.builder(

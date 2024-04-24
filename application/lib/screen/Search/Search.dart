@@ -289,7 +289,10 @@ class _SearchVan extends State<SearchVan> {
                             )
                           ],
                         ),
-                        const Divider(),
+                        const Divider(
+                          color: Colors.white,
+                          thickness: 0.1,
+                        ),
                         Row(
                           children: [
                             IconButton(
@@ -325,7 +328,10 @@ class _SearchVan extends State<SearchVan> {
                             ),
                           ],
                         ),
-                        const Divider(),
+                        const Divider(
+                          color: Colors.white,
+                          thickness: 0.1,
+                        ),
                         Row(
                           children: [
                             IconButton(
@@ -392,14 +398,14 @@ class _SearchVan extends State<SearchVan> {
                           ),
                           child: Text(
                             'Search',
-                            style: GoogleFonts.notoSans(),
+                            style: GoogleFonts.notoSans(color: Colors.white),
                           ),
                         )
                       ],
                     ),
                   ),
 
-                  const Divider(height: 20),
+                  const Divider(color: Colors.grey, thickness: 0.4, height: 20),
 
                   Padding(
                     padding: const EdgeInsets.fromLTRB(220, 0, 0, 0),

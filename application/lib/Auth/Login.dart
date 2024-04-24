@@ -202,6 +202,7 @@ class _LoginState extends State<Login> {
                           style: GoogleFonts.notoSansThai(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
+                            color: Colors.white,
                           ),
                         ),
                       ),
